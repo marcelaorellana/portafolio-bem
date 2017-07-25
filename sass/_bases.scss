@@ -41,3 +41,22 @@ body{
 		
 	}
 }
+.profile{
+	background-color: $azul;
+	padding: 0 10%;
+
+	&__col1{
+		width: 100%;
+		text-align: right;
+		&__mini{
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-color: $gris;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+		}
+	}
+}

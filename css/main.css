@@ -36,4 +36,20 @@ body {
     .nav__menu__item i {
       padding: 0 5px; }
 
+.profile {
+  background-color: #203748;
+  padding: 0 10%; }
+  .profile__col1 {
+    width: 100%;
+    text-align: right; }
+    .profile__col1__mini {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: #EFEFEF;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0; }
+
 /*# sourceMappingURL=main.css.map */
