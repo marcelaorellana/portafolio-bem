@@ -2,3 +2,42 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'PT Serif', serif;
 */
+body{
+	margin: 0;
+	font-family: $font-body;
+	box-sizing: border-box;
+}
+.nav{
+	background-color: $rosado;
+	margin: 0;
+	padding: 0 10%;
+	box-sizing: border-box;
+}
+
+.nav__menu{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0;
+	color: white;
+	&__item{
+		list-style: none;
+		padding: 10px;
+		&--img-profile{
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			border: 2px solid $gris;
+		}
+		&--selected{
+			border-radius: 25px;
+			background-color: $azul;
+		}
+		i{
+			padding: 0 5px;
+		}
+		
+	}
+}

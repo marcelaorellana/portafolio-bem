@@ -3,5 +3,37 @@
 font-family: 'Roboto', sans-serif;
 font-family: 'PT Serif', serif;
 */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box; }
+
+.nav {
+  background-color: #F04949;
+  margin: 0;
+  padding: 0 10%;
+  box-sizing: border-box; }
+
+.nav__menu {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  color: white; }
+  .nav__menu__item {
+    list-style: none;
+    padding: 10px; }
+    .nav__menu__item--img-profile {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      border: 2px solid #EFEFEF; }
+    .nav__menu__item--selected {
+      border-radius: 25px;
+      background-color: #203748; }
+    .nav__menu__item i {
+      padding: 0 5px; }
 
 /*# sourceMappingURL=main.css.map */
