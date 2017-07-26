@@ -43,11 +43,12 @@ body{
 }
 .profile{
 	background-color: $azul;
-	padding: 0 10%;
+	padding: 10vh 10%;
 
 	&__col1{
 		width: 100%;
-		text-align: right;
+		display: flex;
+		justify-content: flex-end;
 		&__mini{
 			width: 200px;
 			height: 200px;
@@ -56,7 +57,42 @@ body{
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			margin: 0;
+			margin: 50px 100px;
+			&--p{
+				font-size: 50px;
+				font-weight: 700;
+				color: $azul;
+			}
+		}
+	}
+	&__col2{
+		color: white;
+		&__detalles{
+				margin: 50px;
+			&--verde{
+				color: $verde;
+			}
+			&--btn{
+				background-color: $verde;
+				color: white;
+				padding: 10px 20px;
+				border-radius: 25px;
+				border: none;
+				font-size: 18px;
+				i{
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+	&__col{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		&--icon{
+			width: 50px;
+			height: 50px;
+			margin: 10px;
 		}
 	}
 }
